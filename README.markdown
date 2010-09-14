@@ -10,8 +10,10 @@ A simple Eclipse plug-in that launches *.py files as [processing.py](http://gith
 First -- Go get processing.py and set it up. Remember where it is installed, _specifically_ making sure the folder contains processing-py.jar
     
 * Inside Eclipse go to Help -> Install New Software...
-* Add a new update site (Add... on the upper right) with the name "Processing.py launcher update site." and location - http://github.com/Lonnen/Processing.py-Eclipse-Launcher/raw/master/processing.py.plugin.updateSite/site.xml
-* Select the Processing.Py_Launcher plug in and choose Next. 
+* Add a new update site (Add... on the upper right) 
+* Use the name "Processing.py Launcher Update Site" and location - http://github.com/Lonnen/Processing.py-Eclipse-Launcher/raw/master/processing.py.plugin.updateSite/site.xml
+* In the future, Help -> Check for Updates will pull down the latest version of the plug-in.
+* Select the Processing.Py_Launcher plug-in and choose Next. 
 * You will be prompted to review and accept the Eclipse Public License v 1.0. Proceed if you accept the terms.
 * The software contains unsigned content. Select ok if you trust the source (the update site from my github master is probably trustworthy).
 * Restart Eclipse if prompted.
