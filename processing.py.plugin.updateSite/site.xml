@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <feature url="features/Processing.Py_Launcher_1.0.0.201009140033.jar" id="Processing.Py_Launcher" version="1.0.0.201009140033"/>
+   <category-def name="processing.py.plugin" label="Processing.py Plug-ins">
+      <description>
+         Plug-ins supporting Processing.py development.
+      </description>
+   </category-def>
 </site>
