@@ -11,7 +11,8 @@ First -- Go get processing.py and set it up. Remember where it is installed, _sp
     
 * Inside Eclipse go to Help -> Install New Software...
 * Add a new update site (Add... on the upper right) 
-* Use the name "Processing.py Launcher Update Site" and location - http://github.com/Lonnen/Processing.py-Eclipse-Launcher/raw/master/processing.py.plugin.updateSite/site.xml
+* Use the name - Processing.py Launcher Update Site
+* Use the location - http://github.com/Lonnen/Processing.py-Eclipse-Launcher/raw/master/processing.py.plugin.updateSite/site.xml
 * In the future, Help -> Check for Updates will pull down the latest version of the plug-in.
 * Select the Processing.Py_Launcher plug-in and choose Next to continue.
 * You will be prompted to review and accept the Eclipse Public License v 1.0. Proceed if you accept the terms.
