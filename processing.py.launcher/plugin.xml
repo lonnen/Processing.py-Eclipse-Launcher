@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point = "org.eclipse.debug.ui.launchShortcuts">
+      <shortcut
+            class="processing.py.launcher.RunSketchShortcut"
+            description="Run the Processing.py sketch"
+            icon="icons/jycessing.gif"
+            id="processing.py.launcher.runSketchShortcut"
+            label="Processing.py Sketch"
+            modes="run">
+         <contextualLaunch>
+            <enablement>
+               <with variable="selection">
+                 <count value="1" />
+                 <iterate>
+                   <or>
+	                 <test property="org.eclipse.debug.ui.matchesPattern" value="*.py" />
+	               </or>
+	             </iterate>
+               </with>
+            </enablement>
+         </contextualLaunch>
+      </shortcut>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="processing.py.launcher.JycessingPreferences"
+            id="processing.py.launcher.Preferences"
+            name="Processing.py">
+      </page>
+   </extension>
+
+</plugin>
