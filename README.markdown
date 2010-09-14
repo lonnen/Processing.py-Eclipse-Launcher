@@ -1,4 +1,4 @@
-# processing.py eclipse launcher plug-in #
+# Processing.py Eclipse Launcher Plug-in #
 
 A simple Eclipse plug-in that launches *.py files as [processing.py](http://github.com/jdf/processing.py) sketches.
 [Chris Lonnen](http://chrislonnen.com) &lt; [chris.lonnen@gmail.com](mailto:chris.lonnen@gmail.com)&gt;
@@ -7,19 +7,19 @@ A simple Eclipse plug-in that launches *.py files as [processing.py](http://gith
 
 ## Getting Started ##
 
-    First -- Go get processing.py and set it up. Remember where it is installed, specifically making sure the folder contains processing-py.jar
+First -- Go get processing.py and set it up. Remember where it is installed, _specifically_ making sure the folder contains processing-py.jar
     
-    Inside Eclipse go to Help -> Install New Software...
-    Add a new update site (Add... on the upper right) with the name "Processing.py launcher update site." and location - http://github.com/Lonnen/Processing.py-Eclipse-Launcher/raw/master/processing.py.plugin.updateSite/site.xml
-    Select the Processing.Py_Launcher plug in and choose Next. 
-    You will be prompted to review and accept the Eclipse Public License v 1.0. Proceed if you accept the terms.
-	The software contains unsigned content. Select ok if you trust the source (the update site from my github master is probably trustworthy).
-	Restart Eclipse if prompted.
-	Under File -> Preferences find Processing.py and indicate the folder where Processing.py is installed.
-	Add any additional command line arguments you desire ( --present for full screen. It should accept anything Processing does).
-	Save the preferences.
-	Right click on a *.py sketch in your workspace and select Run as... -> Processing.py Sketch
-	Error messages and standard out should appear in your Eclipse editor console.
+Inside Eclipse go to Help -> Install New Software...
+Add a new update site (Add... on the upper right) with the name "Processing.py launcher update site." and location - http://github.com/Lonnen/Processing.py-Eclipse-Launcher/raw/master/processing.py.plugin.updateSite/site.xml
+Select the Processing.Py_Launcher plug in and choose Next. 
+You will be prompted to review and accept the Eclipse Public License v 1.0. Proceed if you accept the terms.
+The software contains unsigned content. Select ok if you trust the source (the update site from my github master is probably trustworthy).
+Restart Eclipse if prompted.
+Under File -> Preferences find Processing.py and indicate the folder where Processing.py is installed.
+Add any additional command line arguments you desire ( --present for full screen. It should accept anything Processing does).
+Save the preferences.
+Right click on a *.py sketch in your workspace and select Run as... -> Processing.py Sketch
+Error messages and standard out should appear in your Eclipse editor console.
 	
 ## Whahuh? ##
 
