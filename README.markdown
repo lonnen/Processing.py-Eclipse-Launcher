@@ -3,7 +3,7 @@
 A simple Eclipse plug-in that launches *.py files as [processing.py](http://github.com/jdf/processing.py) sketches.
 [Chris Lonnen](http://chrislonnen.com) &lt; [chris.lonnen@gmail.com](mailto:chris.lonnen@gmail.com)&gt;
 
-## Please note that this plug-in will require a working [processing.py](http://github.com/jdf/processing.py) installation in your machine.
+## Please note that this plug-in requires a working [processing.py](http://github.com/jdf/processing.py) installation in your machine.
 
 ## Getting Started ##
 
