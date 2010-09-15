@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/Processing.Py_Launcher_1.0.0.201009140033.jar" id="Processing.Py_Launcher" version="1.0.0.201009140033">
+   <feature url="features/Processing.Py_Launcher_1.0.1.201009142048.jar" id="Processing.Py_Launcher" version="1.0.1.201009142048">
       <category name="processing_py_plugin"/>
    </feature>
    <category-def name="processing_py_plugin" label="Processing.py Plug-ins">

@@ -2,7 +2,7 @@
 <feature
       id="Processing.Py_Launcher"
       label="Processing.Py_Launcher"
-      version="1.0.0.qualifier">
+      version="1.0.1.qualifier">
 
    <description url="http://github.com/Lonnen/Processing.py-Eclipse-Launcher">
       A simple Eclipse plug-in that launches *.py files as processing.py sketches.
