@@ -21,6 +21,7 @@ First -- Go get processing.py and set it up. Remember where it is installed, _sp
 * Add any additional command line arguments you desire ( --present for full screen. It should accept anything Processing does).
 * Save the preferences.
 * Right click on a *.py sketch in your workspace and select Run as... -> Processing.py Sketch
+* Alternatively you can also right click on an editor with an open *.py file and select Run as... -> Processing.py Sketch
 * Error messages and standard out should be written to your Eclipse console.
 	
 ## What now? ##
